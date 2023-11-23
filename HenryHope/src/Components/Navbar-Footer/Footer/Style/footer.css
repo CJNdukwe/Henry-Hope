@@ -1,0 +1,26 @@
+.footer-mid{
+     background-image: linear-gradient(to bottom right, #666, #ccc);
+}
+
+@media only screen and (max-width: 599px){
+     .footer-top{
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+          font-size: 10px;
+     }
+     .footer-top-icons{
+          height: 15px;
+          width: 15px;
+     }
+}
+@media only screen and (min-width: 600px) and (max-width: 720px){
+     .footer-top{
+          font-size: 12px;
+     }
+     .footer-top-icons{
+          height: 18px;
+          width: 18px;
+     }
+}
