@@ -1,5 +1,6 @@
 import Navbar from "../../Components/Navbar-Footer/Navbar/navbar";
 import Hero from "../../Components/Homepage/Hero/hero";
+import AboutUsHome from "../../Components/Homepage/About Us/about-us-home";
 import Footer from "../../Components/Navbar-Footer/Footer/footer";
 
 
@@ -8,6 +9,7 @@ function Homepage() {
     <>
     <Navbar />
     <Hero />
+    <AboutUsHome />
     <Footer />
     </>
   )
