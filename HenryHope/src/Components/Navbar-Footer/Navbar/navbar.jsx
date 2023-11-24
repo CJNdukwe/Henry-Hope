@@ -6,7 +6,7 @@ import { FaBars } from "react-icons/fa6";
 function Navbar() {
   return (
     <header className="">
-      <div className="mx-4 nav flex justify-between mb-3">
+      <div className="mx-16 nav flex justify-between mb-3">
         <div className="logo">
           <img src={Logo} alt="company logo" className="w-20 h-20" />
         </div>
