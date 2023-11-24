@@ -1,0 +1,19 @@
+.home-hero{
+     background-image: url("hero-image.jpg");
+     background-repeat: no-repeat;
+     height: 30rem;
+}
+.home-hero-link a{
+     text-decoration: none;
+     color: #fff;
+     border: 1px solid transparent;
+     padding: 8px 12px;
+     background: rgb(218, 69, 94);
+     border-radius: 12px;
+     width: 15rem;
+     text-align: center;
+}
+.home-hero-link > a:hover{
+     background: orange;
+     transition: 1s;
+}
