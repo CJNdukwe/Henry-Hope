@@ -1,0 +1,17 @@
+.link-to-about-us > a{
+     border: 1px solid transparent;
+     color: white;
+     background: #ff0000;
+     padding: 12px 24px;
+     border-radius: 12px;
+     text-align: center;
+}
+.link-to-about-us > a:hover{
+     background: #001975;
+     letter-spacing: 1px;
+     transition: 1s;
+}
+.link-to-services > a{
+     color: #ff0000;
+     text-decoration: underline;
+}
