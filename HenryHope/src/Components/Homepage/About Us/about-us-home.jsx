@@ -4,7 +4,7 @@ import { GiPowerGenerator, GiAutoRepair, GiCommercialAirplane, GiElectric } from
 import { TbTruckDelivery } from "react-icons/tb"; 
 import { TfiRulerPencil } from "react-icons/tfi";
 import { FaLongArrowAltRight } from "react-icons/fa";
-import DescImage from "../../../assets/images/home-about-us-image2.jpg"
+import DescImg from "../../../assets/images/home-about-us-image2.jpg"
 
 function AboutUsHome() {
   return (
@@ -24,7 +24,7 @@ function AboutUsHome() {
           <a href="/about-us" className="font-secondary">Learn more about us</a>
         </div>
         <div className="home-about-us-image flex justify-center items-center">
-          <img src={DescImage} alt="engineer photo" className="w-[80%] rounded-2xl" />
+          <img src={DescImg} alt="engineer photo" className="w-[80%] rounded-2xl" />
         </div>
       </div>
       <div className="flex flex-col gap-10 justify-start items-start font-secondary p-10 bg-[#aab2d1] w-[50%]">
