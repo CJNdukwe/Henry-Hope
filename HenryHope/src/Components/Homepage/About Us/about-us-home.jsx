@@ -1,7 +1,7 @@
 import "../About Us/Style/about-us-home.css"
 import { FaIndustry, FaPeopleGroup } from "react-icons/fa6";
 import { GiPowerGenerator, GiAutoRepair, GiCommercialAirplane, GiElectric } from "react-icons/gi";
-import { TbTruckDelivery } from "react-icons/tb";
+import { TbTruckDelivery } from "react-icons/tb"; 
 import { TfiRulerPencil } from "react-icons/tfi";
 import { FaLongArrowAltRight } from "react-icons/fa";
 import DescImage from "../../../assets/images/home-about-us-image2.jpg"
