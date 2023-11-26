@@ -22,5 +22,12 @@
      .home-hero-container{
           display: flex;
           flex-direction: column;
+          gap: 2px;
+     }
+     .home-hero{
+          height: 40rem;
+     }
+     .home-hero-text{
+          padding-top: 32px;
      }
 }

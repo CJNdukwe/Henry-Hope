@@ -9,8 +9,8 @@ import DescImg from "../../../assets/images/home-about-us-image2.jpg"
 function AboutUsHome() {
   return (
     <div className="about-us-home">
-      <div className="flex justify-between items-center">
-      <div className="flex flex-col justify-center items-center w-[50%]" data-aos="zoom-in-right" data-aos-duration="2000">
+      <div className="auh-container flex justify-between items-center">
+      <div className="auh-container-content flex flex-col justify-center items-center w-[50%]" data-aos="zoom-in-right" data-aos-duration="2000">
         <div>
         <h3 className="font-primary font-extrabold text-2xl text-[#000]" >
           ABOUT US</h3>
@@ -27,7 +27,7 @@ function AboutUsHome() {
           <img src={DescImg} alt="engineer photo" className="w-[80%] rounded-2xl" />
         </div>
       </div>
-      <div className="flex flex-col gap-10 justify-start items-start font-secondary p-10 bg-[#aab2d1] w-[50%]">
+      <div className="auh-container-content flex flex-col gap-10 justify-start items-start font-secondary p-10 bg-[#aab2d1] w-[50%]">
         <div className="home-service-tag flex gap-5 justify-center items-center" data-aos="fade-left" data-aos-duration="500">
           <FaIndustry className="text-2xl text-[#666]" />
           <h4>Industrial Electrical Installation Services and Maintenance</h4>
