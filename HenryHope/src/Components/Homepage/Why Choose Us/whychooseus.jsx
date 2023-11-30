@@ -7,8 +7,8 @@ function WhyChooseUs() {
                <div className='font-primary font-bold text-4xl flex justify-center items-center mb-20'>
                <h1>Why Choose Us</h1>
                </div>
-               <div className='flex flex-col  font-secondary text-xs'>
-                    <div className='flex justify-center gap-36'>
+               <div className='tabs flex flex-col  font-secondary text-xs'>
+                    <div className='tab flex justify-center gap-36'>
                          <div className='bubble w-[400px] bg-[#ff0000] text-[#fff]' data-aos="fade-down-right" data-aos-duration="1200">
                               <p>
                                    Continuous search for the opportunities beyond the agreed engineering 
@@ -22,7 +22,7 @@ function WhyChooseUs() {
                               </p>
                          </div>
                     </div>
-                    <div className='flex justify-center gap-36'>
+                    <div className='tab-mid flex justify-center gap-36'>
                          <div className='bubble w-[400px] bg-[purple] text-[#fff]' data-aos="fade-right" data-aos-duration="1200">
                               <p>
                                    Professional quality of services provided by a highly motivated team. 
@@ -42,7 +42,7 @@ function WhyChooseUs() {
                               </p>
                          </div>
                     </div>
-                    <div className='flex justify-center gap-36'>
+                    <div className='tab flex justify-center gap-36'>
                          <div className='bubble w-[400px] bg-[#001975] text-[#fff]' data-aos="fade-up-right" data-aos-duration="1200">
                               <p>
                                    Team work based on the implementation of progressive engineering 
