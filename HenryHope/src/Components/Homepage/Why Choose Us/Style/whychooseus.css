@@ -81,3 +81,17 @@
           align-items: center;
      }
 }
+@media only screen and (min-width: 821px) and (max-width: 1024px){
+     .tab{
+          display: flex;
+          gap: 30px;
+          justify-content: center;
+          align-items: center;
+     }
+     .tab-mid{
+          display: flex;
+          gap: 30px;
+          justify-content: center;
+          align-items: center;
+     }
+}
