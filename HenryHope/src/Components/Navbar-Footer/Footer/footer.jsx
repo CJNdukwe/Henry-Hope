@@ -4,7 +4,7 @@ import Logo from "../../../assets/images/logo.png"
 
 
 function Footer() {
-  return (
+return (
      <footer>
           <div className="footer">
                <div className="footer-top font-secondary font-bold text-sm flex justify-around items-center bg-[#999] h-24 w-full">
@@ -45,7 +45,7 @@ function Footer() {
                </div>
           </div>
      </footer>
-  )
+)
 }
 
 export default Footer;

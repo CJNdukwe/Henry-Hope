@@ -1,0 +1,36 @@
+@media only screen and (min-width: 820px) and (max-width: 1149px){
+     .card-base{
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          gap: 36px;
+     }
+     .card-container{
+          display: flex;
+          justify-content: space-around;
+          gap: 120px;
+     }
+}
+@media only screen and (min-width: 600px) and (max-width: 819px){
+     .card-base{
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          gap: 36px;
+     }
+     .card-container{
+          display: flex;
+          justify-content: space-around;
+          gap: 80px;
+     }
+}
+@media only screen and (max-width: 599px){
+     .card-base{
+          display: flex;
+          flex-direction: column;
+     }
+     .card-container{
+          display: flex;
+          flex-direction: column;
+     }
+}

@@ -3,6 +3,7 @@ import "./App.css";
 import AosInitializer from "./assets/aosInitializer";
 import { Routes, Route } from "react-router-dom";
 import Homepage from "./Pages/Homepage/homepage";
+import ServicesPage from "./Pages/Services/services";
 
 
 
@@ -15,10 +16,10 @@ function App() {
     <>
       <Routes>
         <Route path="/" element={<Homepage />} />
-        {/* <Route path="/services" element={<Services />} />
-        <Route path="/projects" element={<Projects />} />
-        <Route path="/contact-us" element={<Contact-us />} />
-        <Route path="/about-us" element={<About-Us />} /> */}
+        <Route path="/services" element={<ServicesPage />} />
+        {/* <Route path="/projects" element={<Projects />} /> */}
+        {/* <Route path="/contact-us" element={<Contact-us />} /> */}
+        {/* <Route path="/about-us" element={<About-Us />} /> */}
       </Routes>
     </> 
   )
