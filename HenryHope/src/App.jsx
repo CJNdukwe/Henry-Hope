@@ -4,6 +4,11 @@ import AosInitializer from "./assets/aosInitializer";
 import { Routes, Route } from "react-router-dom";
 import Homepage from "./Pages/Homepage/homepage";
 import ServicesPage from "./Pages/Services/services";
+import ProjectPage from "./Pages/Projects/projects";
+import ContactUs from "./Pages/Contact Us/contact";
+import AboutUs from "./Pages/About Us/about";
+import ComingSoon from "./Pages/Coming-Soon/soon";
+
 
 
 
@@ -17,9 +22,10 @@ function App() {
       <Routes>
         <Route path="/" element={<Homepage />} />
         <Route path="/services" element={<ServicesPage />} />
-        {/* <Route path="/projects" element={<Projects />} /> */}
-        {/* <Route path="/contact-us" element={<Contact-us />} /> */}
-        {/* <Route path="/about-us" element={<About-Us />} /> */}
+        <Route path="/projects" element={<ProjectPage />} />
+        <Route path="/contact-us" element={<ContactUs />} />
+        <Route path="/about-us" element={<AboutUs />} />
+        <Route path="/coming-soon" element={<ComingSoon />} />
       </Routes>
     </> 
   )

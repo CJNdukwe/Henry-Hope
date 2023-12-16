@@ -1,6 +1,5 @@
 import "../Navbar/Style/navbar.css"
 import Logo from "../../../assets/images/logo.png"
-import { FaBars } from "react-icons/fa6";
 
 
 function Navbar() {
@@ -8,7 +7,9 @@ function Navbar() {
     <header className="">
       <div className="mx-16 nav flex justify-between mb-3">
         <div className="logo">
+          <a href="/">
           <img src={Logo} alt="company logo" className="w-20 h-20" />
+          </a>
         </div>
         <div className="navlinks">
           <ul className="flex justify-between gap-10 pt-6 font-secondary">

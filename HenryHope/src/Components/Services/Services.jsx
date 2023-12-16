@@ -12,7 +12,7 @@ function Services() {
   return (
     <div>
       <div className="py-12 mx-16">
-        <div className="flex flex-col items-center py-8">
+        <div className="flex flex-col items-center pb-8">
           <h3 className="font-primary font-bold text-3xl pb-4">Our Services</h3>
           <p className="font-secondary font-semibold text-base text-[#656565]">
             Browse through our range of services and let us know how we can come

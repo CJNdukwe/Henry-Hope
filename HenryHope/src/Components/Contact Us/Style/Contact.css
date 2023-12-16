@@ -1,0 +1,41 @@
+input {
+     border: 1px solid #656565;
+     border-radius: 12px;
+     height: 40px;
+     width: 350px;
+     padding: 19px 24px;
+}
+textarea {
+     border: 1px solid #656565;
+     border-radius: 12px;
+     height: 250px;
+     width: 350px;
+     padding: 19px 24px;
+}
+.submit-button > button {
+     padding: 18px 24px;
+     cursor: pointer;
+     border: 1px solid #333333;
+     border-radius: 10px;
+     background: #333333;
+     color: white;
+     width: 200px;
+     height: 50px;
+}
+.submit-button > button:hover{
+     background: #656565;
+     transition: 1s;
+}
+
+@media only screen and (min-width: 360px) and (max-width: 629px){
+     .contact-info{
+          display: flex;
+          flex-direction: column;
+          gap: 10px;
+     }
+     .submit-button{
+          display: flex;
+          flex-direction: column;
+          gap: 10px;
+     }
+}
