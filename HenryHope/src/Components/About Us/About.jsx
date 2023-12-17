@@ -9,7 +9,10 @@ import Nlng from "../About Us/Logos/lng.png";
 import NigBre from "../About Us/Image/nb.png";
 import Mobil from "../About Us/Logos/mobil.png";
 import Futo from "../About Us/Logos/futo.png";
-import CEO from "../About Us/Image/ceo.jpg"
+import CEO from "../About Us/Image/Team/ceo.png"
+import PM from "../About Us/Image/Team/pm.png"
+import FSS from "../About Us/Image/Team/fss.png"
+import AO from "../About Us/Image/Team/ao.png"
 
 function About() {
   return (
@@ -132,6 +135,46 @@ function About() {
               </div>
             </div>
           </div>
+        </div>
+        <div className="team">
+          <div className="flex justify-between items-center gap-4 mx-16 py-8">
+            <div className="team-card">
+                <img src={CEO} alt="ceo image" className="w-[150px] h-[150px]"/>
+                <h5 className="font-primary font-bold text-2xl">
+                  Engr. Ernest Ndukwe
+                </h5>
+                <p className="font-secondary font-normal text-lg">
+                  CEO / Founder
+                </p>
+            </div>
+            <div className="team-card">
+                <img src={PM} alt="project manager image" className="w-[150px] h-[150px]"/>
+                <h5 className="font-primary font-bold text-2xl">
+                  Engr. Prosper Chijioke
+                </h5>
+                <p className="font-secondary font-normal text-lg">
+                  Project Manager
+                </p>
+            </div>
+            <div className="team-card">
+                <img src={FSS} alt="field service supervisor image" className="w-[150px] h-[150px]"/>
+                <h5 className="font-primary font-bold text-2xl">
+                  Ndatah Ukeme
+                </h5>
+                <p className="font-secondary font-normal text-lg">
+                  Field Service Supervisor
+                </p>
+            </div>
+            <div className="team-card">
+                <img src={AO} alt="admin officer image" className="w-[150px] h-[150px]"/>
+                <h5 className="font-primary font-bold text-2xl">
+                  Matilda Ugochukwu
+                </h5>
+                <p className="font-secondary font-normal text-lg">
+                  Admin Officer
+                </p>
+            </div>
+        </div>
         </div>
       </div>
     </div>

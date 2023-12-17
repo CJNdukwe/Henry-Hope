@@ -16,6 +16,14 @@
 .founder-inner {
      margin: 6rem;
 }
+.team-card{
+     border: 1px solid #656565;
+     padding: 8px 12px;
+     border-radius: 12px;
+     color: #fff;
+     background: #001975;
+}
+
 @media only screen and (min-width: 360px) and (max-width: 479px) {
      .founder-inner {
           margin: 0;
