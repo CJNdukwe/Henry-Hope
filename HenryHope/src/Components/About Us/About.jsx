@@ -11,7 +11,7 @@ import Mobil from "../About Us/Logos/mobil.png";
 import Futo from "../About Us/Logos/futo.png";
 import CEO from "../About Us/Image/Team/ceo.png"
 import PM from "../About Us/Image/Team/pm.png"
-import FSS from "../About Us/Image/Team/fss.png"
+import SS from "../About Us/Image/Team/fss.png"
 import AO from "../About Us/Image/Team/ao.png"
 
 function About() {
@@ -39,12 +39,9 @@ function About() {
           />
         </div>
         <div>
-          <div className="font-primary font-bold text-xl flex justify-between items-center py-6 px-16">
-            <h2>Our Mission</h2>
-            <h2>Our Vision</h2>
-          </div>
-          <div className="font-secondary font-normal text-lg flex justify-between items-center text-justify pb-12 px-16">
+          <div className="mission-vision-container font-secondary font-normal text-lg flex justify-between items-center text-justify py-12 px-16">
             <div className="mission-vision w-[550px] h-[300px] text-[#fff] bg-orange-500">
+              <h2 className="font-primary font-bold text-xl">Our Mission</h2>
               <h5 className="p-4">
                 To provide the best services in electrical and mechanical
                 engineering to ensure that the expectations of our clients are
@@ -56,6 +53,7 @@ function About() {
               </h5>
             </div>
             <div className="mission-vision w-[550px] h-[300px] text-[#fff] bg-blue-600">
+              <h2 className="font-primary font-bold text-xl">Our Vision</h2>
               <h5 className="p-4">
                 To be the leading organization in the field of
                 electro-mechanical and aviation technology service industry
@@ -71,7 +69,7 @@ function About() {
             Some of our clients:
           </h3>
           <div className="flex flex-col gap-12">
-            <div className="flex justify-around items-center">
+            <div className="client flex justify-around items-center">
               <img
                 src={Total}
                 alt="total energies"
@@ -89,7 +87,7 @@ function About() {
                 className="w-[150px] h-[100px]"
               />
             </div>
-            <div className="flex justify-around items-center">
+            <div className="client flex justify-around items-center">
               <img src={Nlng} alt="nlng" className="w-[150px] h-[100px]" />
               <img src={Futo} alt="futo" className="w-[150px] h-[100px]" />
               <img
@@ -137,7 +135,7 @@ function About() {
           </div>
         </div>
         <div className="team">
-          <div className="flex justify-between items-center gap-4 mx-16 py-8">
+          <div className="team-cards flex justify-between items-center gap-4 mx-16 py-8">
             <div className="team-card">
                 <img src={CEO} alt="ceo image" className="w-[150px] h-[150px]"/>
                 <h5 className="font-primary font-bold text-2xl">
@@ -157,12 +155,12 @@ function About() {
                 </p>
             </div>
             <div className="team-card">
-                <img src={FSS} alt="field service supervisor image" className="w-[150px] h-[150px]"/>
+                <img src={SS} alt="site supervisor image" className="w-[150px] h-[150px]"/>
                 <h5 className="font-primary font-bold text-2xl">
                   Ndatah Ukeme
                 </h5>
                 <p className="font-secondary font-normal text-lg">
-                  Field Service Supervisor
+                  Site Supervisor
                 </p>
             </div>
             <div className="team-card">
