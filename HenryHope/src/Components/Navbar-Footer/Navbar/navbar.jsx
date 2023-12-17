@@ -15,7 +15,7 @@ function Navbar() {
           <ul className="flex justify-between gap-10 pt-6 font-secondary">
             <li><a href="/">Home</a></li>
             <li><a href="/services">Services</a></li>
-            <li><a href="/projects">Projects</a></li>
+            <li><a href="/coming-soon">Projects</a></li>
             <li><a href="/contact-us">Contact Us</a></li>
             <li><a href="/about-us">About Us</a></li>
             </ul>
