@@ -6,8 +6,8 @@ import Logo from "../../../assets/images/logo.png"
 function Footer() {
 return (
      <footer>
-          <div className="footer">
-               <div className="footer-top font-secondary font-bold text-sm flex justify-around items-center bg-[#999] h-24 w-full">
+          <div className="footer bg-slate-100">
+               <div className="footer-top font-secondary font-bold text-sm flex justify-around items-center h-24 w-full">
                     <div>
                          <a href="tel:+2348033225912" className="flex gap-2 items-center">
                               <FaSquarePhone className="footer-top-icons text-[green] w-8 h-8"/>
@@ -37,7 +37,7 @@ return (
                          <a href="/coming-soon"><FaSquareInstagram className="w-8 h-8 text-[#e252e2]"/></a>
                     </div>
                </div>
-               <div className="font-secondary font-bold text-xs flex justify-center items-center bg-[#ccc] h-20">
+               <div className="font-secondary font-bold text-xs flex justify-center items-center h-20">
                     <span>
                          <p>
                               &copy; 2024, Henry Hope Engineering Nigeria Limited, All Rights Reserved

@@ -160,7 +160,7 @@ function About() {
                   Ndatah Ukeme
                 </h5>
                 <p className="font-secondary font-normal text-lg">
-                  Site Supervisor
+                  Site Supervisor 
                 </p>
             </div>
             <div className="team-card">

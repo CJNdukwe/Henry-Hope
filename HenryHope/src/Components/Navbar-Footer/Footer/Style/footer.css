@@ -1,7 +1,3 @@
-.footer-mid{
-     background-image: linear-gradient(to bottom right, #666, #ccc);
-}
-
 @media only screen and (max-width: 599px){
      .footer-top{
           display: flex;
